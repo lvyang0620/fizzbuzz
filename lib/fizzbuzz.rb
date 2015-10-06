@@ -10,6 +10,10 @@ class Fizzbuzz
       'buzz'
 	elsif number.to_s.include? '7'
 	  'github'
+	elsif number.to_s.include? '8'
+	  'github 8'
+	elsif number.to_s.include? '9'
+	  'github 9'
     else
       number
     end
